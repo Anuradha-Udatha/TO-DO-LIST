@@ -105,3 +105,52 @@ ul li span {
 ul li span:hover{
   background-color: #edeef0;
 }
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .todoheader {
+    max-width: fit-content;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  input {
+    width: calc(100% - 90px); /* Adjust width considering button */
+  }
+
+  button {
+    width: 80px;
+  }
+}
+
+ul li span:hover{
+  background-color: #edeef0;
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+  .todoheader {
+    max-width: fit-content;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  input {
+    width: calc(100% - 90px); /* Adjust width considering button */
+  }
+
+  button {
+    width: 80px;
+  }
+}
+
+ul li span:hover{
+  background-color: #edeef0;
+}
+
+
+
+
+
